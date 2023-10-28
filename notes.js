@@ -8,7 +8,7 @@ const readNotes=(title)=>{
             console.log(chalk.yellow.inverse.bold(note.title));
             console.log(note.body);
         }
-        return note.title===title;
+        return note.title===title;//returns the title of note.
     })
     if(!reading)
     {
